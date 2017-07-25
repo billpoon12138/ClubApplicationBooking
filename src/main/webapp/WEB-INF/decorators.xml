@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/WEB-INF/decorators/">
+
+	
+    <decorator name="default" page="adminLayout.jsp">
+        <pattern>*</pattern>
+        <pattern>*student*</pattern>
+        <pattern>*member*</pattern>    
+    </decorator>
+    <decorator name="Index" page="NoMenuLayout.jsp">
+        <pattern>/index</pattern>
+        <pattern>/</pattern>
+    </decorator>
+    <decorator name="memberIndex" page="memberLayout.jsp">
+        <pattern>/member-index</pattern>
+    </decorator>
+	<decorator name="adminIndex" page="adminLayout.jsp">
+        <pattern>/admin-index</pattern>
+    </decorator>
+    <decorator name="contact" page="memberLayout.jsp">
+        <pattern>/contact</pattern>
+    </decorator>
+    <decorator name="forgetPassword" page="memberLayout.jsp">
+        <pattern>/forget-password</pattern>
+    </decorator>
+    <decorator name="bookinglist" page="adminLayout.jsp">
+        <pattern>/booking/list</pattern>
+        <pattern>/facility/searcha</pattern>
+        <pattern>/booking/history</pattern>
+        <pattern>/member/list</pattern>
+        
+    </decorator>
+    <decorator name="login" page="NoMenuLayout.jsp">
+        <pattern>/index/login</pattern>
+        <pattern>/facility/search</pattern>
+    </decorator>
+    <decorator name="member-index" page="memberLayout.jsp">
+        <pattern>/member-index</pattern>
+        <pattern>/member/edit</pattern>
+        <pattern>/member/edit/*</pattern>
+        <pattern>/facility/searchm</pattern>
+        <pattern>/booking/searchm</pattern>
+        
+        
+    </decorator>
+    <decorator name="admin-index" page="adminLayout.jsp">
+        <pattern>/admin-index</pattern>
+    </decorator>
+
+</decorators>

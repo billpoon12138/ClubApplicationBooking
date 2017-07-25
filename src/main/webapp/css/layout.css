@@ -1,0 +1,50 @@
+body {
+	padding-top: 52px;
+	padding-bottom: 40px;
+	background-color: #f2f2f2;
+}
+.sidebar-nav {
+	padding: 9px 0;
+}
+.myfooter{
+	 width:100%;
+	 margin-top:45%;
+	 background-color:#424244;
+}
+.myfooter p{
+	 color:#fff;
+}
+.btn{
+	color:#e12d2d;
+	width:100px;
+	height:40px;
+	font-size: 16px;
+	-webkit-border-radius: 14px;
+	-moz-border-radius: 14px;
+	border-radius: 14px;
+	background-color:#fff;
+	line-height:0px;
+}
+.btn:hover{
+	color:#000; 
+}
+.ui-widget-header{
+	color:#333;
+}
+.list{
+	position:absolute;
+	left:0;
+	right:0;
+	top:230px;
+	bottom:0;
+}
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+	background-color: #fff
+}
+.navbar .brand {
+	width:150px;
+	height:50px;
+}
+.navbar.nav{
+	left:200px;
+}
